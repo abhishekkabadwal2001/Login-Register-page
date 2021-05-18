@@ -1,0 +1,52 @@
+@media screen and (max-width: 420px)
+{
+    .container
+    {
+        background: url(./Components/Images/mobilebg.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 805px)
+{
+    body{
+        overflow:auto;
+    }
+    .container
+    {
+        height: auto;
+    }
+    .card
+    {
+        height: 659px;
+        width: 431px;
+}
+    }
+    .card .face
+    {
+        flex-direction: column-reverse;
+    }
+    .right-face img
+    {
+        width: 300px !important;
+        margin: 7px 7px;
+    }
+
+}
+@media screen and (max-width: 483px)
+{
+    .right-face img
+    {
+        width: 200px;
+    }
+}
+@media screen and (min-width: 805px)
+{
+    .card .face
+    {
+        flex-direction: row;
+    }
+
+}
